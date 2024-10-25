@@ -270,8 +270,6 @@ These tests use default values set in the ``export_fv3`` function of ``default_v
           * **Set to FALSE:** DO_UGWP_V1, DO_GSL_DRAG_LS_BL, DO_GSL_DRAG_TOFD, DO_UGWP_V1_OROG_ONLY, DO_UGWP_V0_NST_ONLY, LDIAG_UGWP, CA_GLOBAL, LANDICE, LGFDLMPRAD, DO_SAT_ADJ, USE_CICE_ALB, DO_RRTMGP
           * **Set to TRUE:** WRITE_DOPOST, CPL, CPLCHM, USE_MERRA2, LSEASPRAY, DO_UGWP_V0, DO_GSL_DRAG_SS, DO_CA, CA_SGS, CA_TRIGGER, TILEDFIX, FRAC_GRID, WRITE_NSFLIP, DOGP_CLDOPTICS_LUT, DOGP_LWSCAT, DOGP_SGS_CNV, SATMEDMF
           * **Set to VALUE:** NSTF_NAME='2,0,0,0,0', atm_model='fv3', chm_model='gocart', DOMAINS_STACK_SIZE=8000000, IALB=2, IEMS=2, LSM=2, IOPT_DVEG=4, IOPT_CRS=2, IOPT_RAD=3, IOPT_ALB=1, IOPT_STC=3, IOPT_SFC=3, IOPT_TRS=2, IOPT_DIAG=2, D2_BG_K1=0.20, D2_BG_K2=0.04, PSM_BC=1, DDDMP=0.1, GWD_OPT=2, KNOB_UGWP_VERSION=0, KNOB_UGWP_NSLOPE=1, NCA=1, NCELLS=5, NLIVES=12, NTHRESH=18, NSEED=1, NFRACSEED=0.5, NSPINUP=1, ISEED_CA=12345, FSICL=0, FSICS=0, DZ_MIN=6, MIN_SEAICE=0.15
-   
-   The "Detailed Physics Parameters" column in :numref:`Table %s <atmaero-rts>` details physics settings that differ from both the ``default_vars.sh`` values and these ATMAERO-specific defaults. 
 
 ATMAQ
 =======
@@ -360,7 +358,7 @@ These tests use the default values set in the ``export_fv3``, ``export_rap_commo
    :stub-columns: 1
 
 Current RRFS regression tests cover a wide variety of functionality and involve several 
-physics tests. :numref:`Table %s <rrfs-rts>` (below) contains a selection of RTs for RRFS functionality. Blanks indicate that the value comes from the default setting file. These default values are listed in :numref:`Table %s <rrfs-default-vars-comparison>` above. 
+physics tests. 
 
 **Sample** ``CMAKE_FLAGS`` **Setting**
 

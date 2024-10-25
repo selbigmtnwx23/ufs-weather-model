@@ -6,9 +6,14 @@
 
 .. _hsd:
 
-**************************************
-Hierarchical System Development (HSD)
-**************************************
+********************************************
+Hierarchical System Development (HSD) Cases
+********************************************
+
+
+
+
+
 
 The UFS Weather Model (WM) can be run in any of several configurations, from a single-component atmospheric 
 model to a fully coupled model with multiple earth system components (e.g., atmosphere, ocean, sea-ice, land, and 
@@ -44,7 +49,7 @@ The case runs are initialized at 00z Jul 23, 2020 with a 24 hour forecast length
 
 Initial condition (IC) files are created from GFS operational dataset in NEMSIO format. The GFS analysis dataset is used as ‘truth’ to compare with simulated synoptic dynamic fields. The CAPE field is evaluated based on Rapid Refresh (RAP) analysis dataset and atmospheric sounding.
 
-Both MRW App v1.0 and GFS.v16.0.10 simulate a lower value of CAPE compared with RAP_ANL and sounding observation in this summertime case study. Further investigations (MEG 2021) show that this is related to the drier soil layers in GFS initial conditions. The SRW_RRFSv1alpha also underestimates the CAPE.
+Both MRW App v1.0 and GFS.v16.0.10 simulate a lower value of CAPE compared with RAP_ANL and sounding observation in this summertime case study. Further investigations (MEG 2021) show that this is related to the drier soil layers in GFS initial conditions. The SRW_RRFSv1alpha also underestimates the CAPE. (:cite:t:`SunEtAl2024`)
 
 References
 

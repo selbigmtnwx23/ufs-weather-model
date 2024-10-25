@@ -59,6 +59,8 @@ This WM User's Guide is organized as follows:
 
    * :numref:`Chapter %s <Configurations>` (Configurations) lists the currently supported configurations for the UFS WM.
      
+   * :numref:`Chapter %s <hsd>` (Hierarchical System Development) explains how to run test cases that support Hierarchical System Development.
+     
    * :numref:`Chapter %s <ConfigParams>` (Configuration Parameters) lists the purpose and valid values for various configuration parameters.
 
    * :numref:`Chapter %s <AutomatedTesting>` (Automated Testing) describes UFS WM automated testing options.
