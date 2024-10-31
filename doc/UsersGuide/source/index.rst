@@ -14,8 +14,13 @@ Welcome to the UFS Weather Model User's Guide
    CodeOverview
    BuildingAndRunning
    InputsOutputs
+<<<<<<< HEAD
    RTConfigurations
    Cases and Configurations
+=======
+   Configurations
+   modules
+>>>>>>> be4544ee28f8fad7bc2cdb207dc62f89c4aa2bb2
    ConfigParameters
    AutomatedTesting
    FAQ
