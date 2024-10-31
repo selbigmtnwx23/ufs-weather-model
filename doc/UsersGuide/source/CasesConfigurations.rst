@@ -13,8 +13,6 @@ Hierarchical System Development (HSD) Cases
 
 
 
-
-
 The UFS Weather Model (WM) can be run in any of several configurations, from a single-component atmospheric 
 model to a fully coupled model with multiple earth system components (e.g., atmosphere, ocean, sea-ice, land, and 
 mediator). This chapter documents a few of the cases designed to support hierarchical system development (HSD) within the UFS. 
