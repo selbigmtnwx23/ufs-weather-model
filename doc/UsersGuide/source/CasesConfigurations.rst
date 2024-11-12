@@ -143,13 +143,15 @@ For further test management, you may save the test directory location in an envi
 2020 July CAPE Case
 ====================
 
-The July 2020 CAPE case illustrates one of the shortcomings of the Global Forecast System (GFS) v16: low Convective Available Potential Energy (CAPE) predictions during summertime. The NOAA Environmental Modeling Center (EMC) Model Evaluation Group (MEG) identified this concern, and .
+The July 2020 CAPE case illustrates one of the shortcomings of the Global Forecast System (GFS) v16 which is low Convective Available Potential Energy (CAPE) predictions during summertime. CAPE is an important index when it comes to forecasting storms and can be affected by a multitude of atmospheric variables. 
 
-The case runs are initialized at 00z Jul 23, 2020 with a 24 hour forecast length. The corresponding namelist options that need to be changed are listed below. The app uses ./xmlchange to change the runtime settings. The settings that need to be modified to set up the start date, start time, and run time are listed below.
+This case study helped identify that the lower CAPE results from the GFS were due to the overall drier atmosphere that what was observed in the lowest 1km. This can be attributed to the bias within the initial conditions taken from the GDAS (global data assimilation system) that have a drier soil moisture. 
 
-Initial condition (IC) files are created from GFS operational dataset in NEMSIO format. The GFS analysis dataset is used as ‘truth’ to compare with simulated synoptic dynamic fields. The CAPE field is evaluated based on Rapid Refresh (RAP) analysis dataset and atmospheric sounding.
+When compared to the older version of the GFS (v15.2) we see the difference can be attributed to an excessive boundary layer cloud cover that leads to a drop in net radiation at the surface and thus less latent heat flux. This makes for less heat and moisture being fed back to the low levels and ultimately changes the overall vertical 
 
-Both MRW App v1.0 and GFS.v16.0.10 simulate a lower value of CAPE compared with RAP_ANL and sounding observation in this summertime case study. Further investigations (MEG 2021) show that this is related to the drier soil layers in GFS initial conditions. The SRW_RRFSv1alpha also underestimates the CAPE. (:cite:t:`SunEtAl2024`)
+profile of the atmosphere which changes CAPE values. And in the GFS’s case it results in lower CAPE. All these conditions and biases occuring make this a great case to experiment with as changing the different values talked about above can make for some varying results in the CAPE. See for yourself if you can get 
+
+the outcome to be close to real life observations!
 
 References
 
